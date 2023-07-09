@@ -27,7 +27,12 @@ return require('packer').startup(function(use)
     "olimorris/onedarkpro.nvim",
     config = function ()
       require("onedarkpro").setup()
-      vim.cmd('colorscheme onedark')
+
+      local status, _ = pcall(vim.cmd, 'colorscheme onedark')
+      if not status then
+        print("Colorscheme not found!")
+        return
+      end
     end
   }
 
