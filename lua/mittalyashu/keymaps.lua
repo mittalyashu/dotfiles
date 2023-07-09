@@ -12,5 +12,6 @@ keymap.set('n', '<C-u>', "<C-u>zz")
 
 keymap.set('x', '<leader>p', '"_dP')
 
-keymap.set('n', 'y', '"+y')
-keymap.set('v', 'y', '"+y')
+-- Set the content copied to system clipboard
+-- keymap.set('n', 'y', '"+y')
+-- keymap.set('v', 'y', '"+y')

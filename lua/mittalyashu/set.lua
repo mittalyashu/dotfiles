@@ -3,6 +3,9 @@ local opt = vim.opt
 opt.number = true
 opt.relativenumber = true
 
+-- use system clipboard as default register
+opt.clipboard:append("unnamedplus")
+
 opt.tabstop = 2
 opt.softtabstop = 2
 opt.shiftwidth = 2
