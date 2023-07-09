@@ -1,2 +1,2 @@
-require("mittalyashu.remap")
+require("mittalyashu.keymaps")
 require("mittalyashu.set")
