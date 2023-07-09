@@ -30,3 +30,21 @@ opt.scrolloff = 8
 opt.updatetime = 1000
 
 opt.colorcolumn = "80"
+
+-- search settings
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
+vim.opt.cursorline = true
+
+-- appearance
+vim.opt.termguicolors = true
+vim.opt.background = "dark"
+vim.opt.signcolumn = "yes"
+
+-- backspace
+-- opt.backspace = "indent,eol,start"
+
+-- split windows
+-- opt.splitright = true
+-- opt.splitbelow = true
